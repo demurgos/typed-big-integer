@@ -70,7 +70,7 @@ declare namespace bigInt {
      *
      * Alias for the compare method.
      */
-    compareTo(number: NumOrInt): number
+    compareTo(number: NumOrInt): number;
 
     /**
      * divide(number)
@@ -530,7 +530,7 @@ declare namespace bigInt {
      */
     valueOf(): number;
   }
-  
+
   export interface StaticBigInt {
     /**
      * bigInt(number, [base])
