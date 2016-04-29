@@ -10,19 +10,26 @@ import * as bigInt from 'big-integer';
 //   t.equal(bigInt('100') + bigInt('200') === 300, true);
 // });
 
-test('abs', (t) => {
+test('bigInt.abs', (t) => {
   t.plan(2);
   t.equal(bigInt(-45).abs().toJSNumber(), 45);
   t.equal(bigInt(45).abs().toJSNumber(), 45);
 });
 
-test('add', (t) => {
+test('bigInt.add', (t) => {
   t.plan(1);
   t.equal(bigInt(5).add(7).toJSNumber(), 12);
 });
 
-test('and', (t) => {
+test('bigInt.and', (t) => {
   t.plan(2);
   t.equal(bigInt(6).and(3).toJSNumber(), 2);
   t.equal( bigInt(6).and(-3).toJSNumber(), 4);
+});
+
+test('constants', (t) => {
+  t.plan(3);
+  t.equal(bigInt[-999].toJSNumber(), -999);
+  t.equal(bigInt[0].toJSNumber(), 0);
+  t.equal(bigInt[999].toJSNumber(), 999);
 });
