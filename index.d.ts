@@ -1,5 +1,3 @@
-declare let bigInt: bigInt.StaticBigInt;
-
 declare namespace bigInt {
   type NumOrInt = number | bigInt.BigInt; // Private alias for legibility
 
@@ -644,5 +642,7 @@ declare namespace bigInt {
     randBetween(min: NumOrInt, max: NumOrInt): BigInt;
   }
 }
+
+declare const bigInt: bigInt.StaticBigInt;
 
 export = bigInt;

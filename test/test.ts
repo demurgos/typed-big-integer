@@ -1,6 +1,5 @@
-import * as test from 'blue-tape';
-
-import * as bigInt from 'big-integer';
+import test = require('blue-tape');
+import bigInt = require('big-integer');
 
 // TODO: this is currently (2016-04-29) not supported by Typescript
 // See issue https://github.com/Microsoft/TypeScript/issues/2361
