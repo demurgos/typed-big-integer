@@ -1,7 +1,7 @@
 # Typed Big Integer  [![Build Status](https://travis-ci.org/types/npm-big-integer.svg?branch=master)](https://travis-ci.org/types/npm-big-integer)
 
 
-The type definition for [`big-integer`](git+ssh://git@github.com/peterolson/BigInteger.js.git)
+The type definition for [`big-integer`](https://github.com/peterolson/BigInteger.js)
 
 ## LICENSE
 
