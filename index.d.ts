@@ -364,7 +364,7 @@ declare namespace bigInt {
      * - bigInt(13).or(10) => 15
      * - bigInt(13).or(-8) => -3
      */
-    or(number: NumOrInt): boolean;
+    or(number: NumOrInt): BigInt;
 
     /**
      * over(number)
