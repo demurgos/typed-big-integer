@@ -1,7 +1,7 @@
-# Typed Big Integer  [![Build Status](https://travis-ci.org/types/npm-big-integer.svg?branch=master)](https://travis-ci.org/types/npm-big-integer)
+# Typed Big Integer
 
+[![Build status](https://travis-ci.org/types/npm-big-integer.svg?branch=master)](https://travis-ci.org/types/npm-big-integer)
 [![Greenkeeper badge](https://badges.greenkeeper.io/types/npm-big-integer.svg)](https://greenkeeper.io/)
-
 
 The type definition for [`big-integer`](https://github.com/peterolson/BigInteger.js)
 
