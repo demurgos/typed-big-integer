@@ -15,7 +15,7 @@
     "prepublish": "typings install"
   },
   "devDependencies": {
-    "big-integer": "1.6.24",
+    "big-integer": "1.6.25",
     "blue-tape": "^1.0.0",
     "onchange": "^3.2.1",
     "tap-spec": "^4.1.1",
